@@ -1,0 +1,7 @@
+.sombra-caixa {
+    box-shadow: 2px 4px 8px var(--gray-500);
+}
+
+.esconder-elemento {
+    display: none;
+}

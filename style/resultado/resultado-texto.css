@@ -1,0 +1,24 @@
+.resultado__texto__saida {
+  border: none;
+  color: var(--gray-400);
+  font-size: 1.5rem;
+  outline: none;
+  height: auto;
+  min-height: 43vh;
+  resize: none;
+  width: 98%;
+}
+
+@media screen and (min-width: 1440px) {
+  .resultado__texto {
+    align-content: space-between;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .resultado__texto__saida {
+    height: 92%;
+  }
+}
